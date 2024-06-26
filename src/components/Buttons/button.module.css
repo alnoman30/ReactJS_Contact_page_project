@@ -1,0 +1,45 @@
+.primary_button{
+    padding: 10px 18px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .outline_btn {
+    padding: 10px 18px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+.icon{
+  font-size: 24px;
+}
+
+  @media (max-width: 768px) {
+    .primary_button,
+    .outline_btn {
+        padding: 8px 12px;
+        min-width: 100%;
+        font-size: 14px;
+        gap: 6px;
+    }
+    .icon{
+      font-size: 14px;
+    }
+}
